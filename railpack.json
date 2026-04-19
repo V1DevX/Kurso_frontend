@@ -1,0 +1,11 @@
+{
+  "install": {
+    "cmds": ["npm install"]
+  },
+  "build": {
+    "cmds": ["npm run build"]
+  },
+  "start": {
+    "cmds": ["npx serve dist -l $PORT"]
+  }
+}
