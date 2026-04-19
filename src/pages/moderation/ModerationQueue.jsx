@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import client from '../../api/client'
-import LoadingSpinner from '../../components/shared/LoadingSpinner'
-import ErrorMessage from '../../components/shared/ErrorMessage'
+import client from '@/api/client'
+import LoadingSpinner from '@/components/shared/LoadingSpinner'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 import { CheckCircle, XCircle } from 'lucide-react'
 
 export default function ModerationQueue() {

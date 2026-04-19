@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { getCourse, updateCourse, getLessons } from '../../api/courses'
+import { getCourse, updateCourse, getLessons } from '@/api/courses'
 import {
   createLesson, deleteLesson, updateLesson,
   getQuestions, createQuestions,
-} from '../../api/lessons'
-import LoadingSpinner from '../../components/shared/LoadingSpinner'
-import ErrorMessage from '../../components/shared/ErrorMessage'
+} from '@/api/lessons'
+import LoadingSpinner from '@/components/shared/LoadingSpinner'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 import { Plus, Trash2, ChevronDown, ChevronUp } from 'lucide-react'
 
 const inputCls = 'bg-surface border border-border text-text rounded-lg px-4 py-2.5 outline-none focus:border-primary transition-colors text-sm'

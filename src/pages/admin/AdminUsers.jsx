@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from 'react'
-import { getUsers, banUser, unbanUser, changeRole } from '../../api/admin'
-import LoadingSpinner from '../../components/shared/LoadingSpinner'
-import ErrorMessage from '../../components/shared/ErrorMessage'
+import { getUsers, banUser, unbanUser, changeRole } from '@/api/admin'
+import LoadingSpinner from '@/components/shared/LoadingSpinner'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 import { Ban, ShieldCheck, ChevronLeft, ChevronRight, Search } from 'lucide-react'
 
 const ROLE_COLORS = {

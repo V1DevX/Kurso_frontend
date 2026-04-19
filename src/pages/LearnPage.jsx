@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { getLessons, getCourseProgress } from '../api/courses'
-import { getQuestions, watchLesson, submitTest } from '../api/lessons'
-import LoadingSpinner from '../components/shared/LoadingSpinner'
-import ErrorMessage from '../components/shared/ErrorMessage'
+import { getLessons, getCourseProgress } from '@/api/courses'
+import { getQuestions, watchLesson, submitTest } from '@/api/lessons'
+import LoadingSpinner from '@/components/shared/LoadingSpinner'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 import { CheckCircle, Circle, Clock } from 'lucide-react'
 
 const STATUS_STYLES = {

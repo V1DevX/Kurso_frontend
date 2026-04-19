@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { login } from '../api/auth'
-import useAuthStore from '../store/authStore'
-import ErrorMessage from '../components/shared/ErrorMessage'
+import { login } from '@/api/auth'
+import useAuthStore from '@/store/authStore'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 
 export default function Login() {
   const { t } = useTranslation()

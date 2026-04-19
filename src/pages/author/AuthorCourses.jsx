@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { getMyCourses } from '../../api/users'
-import LoadingSpinner from '../../components/shared/LoadingSpinner'
-import ErrorMessage from '../../components/shared/ErrorMessage'
+import { getMyCourses } from '@/api/users'
+import LoadingSpinner from '@/components/shared/LoadingSpinner'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 import { Plus, Pencil } from 'lucide-react'
 
 const STATUS_STYLES = {

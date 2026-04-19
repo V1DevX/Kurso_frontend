@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { getMe, getMyCourses, becomeAuthor } from '../api/users'
-import useAuthStore from '../store/authStore'
-import LoadingSpinner from '../components/shared/LoadingSpinner'
-import ErrorMessage from '../components/shared/ErrorMessage'
+import { getMe, getMyCourses, becomeAuthor } from '@/api/users'
+import useAuthStore from '@/store/authStore'
+import LoadingSpinner from '@/components/shared/LoadingSpinner'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 import { Flame, Zap } from 'lucide-react'
 
 export default function Profile() {

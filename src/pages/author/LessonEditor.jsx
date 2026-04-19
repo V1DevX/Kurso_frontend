@@ -1,12 +1,12 @@
 import { useEffect, useState, useCallback } from 'react'
 import { useParams, useNavigate, useBlocker } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { getLessons } from '../../api/courses'
+import { getLessons } from '@/api/courses'
 import {
   updateLesson, getQuestions, createQuestions, replaceQuestions,
-} from '../../api/lessons'
-import LoadingSpinner from '../../components/shared/LoadingSpinner'
-import ErrorMessage from '../../components/shared/ErrorMessage'
+} from '@/api/lessons'
+import LoadingSpinner from '@/components/shared/LoadingSpinner'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 import { Eye, Code, Plus, Trash2, AlertTriangle, Check } from 'lucide-react'
 
 // ── Unsaved-changes blocker dialog ──────────────────────────────────────────

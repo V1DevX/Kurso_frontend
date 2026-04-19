@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { createCourse } from '../../api/courses'
-import ErrorMessage from '../../components/shared/ErrorMessage'
+import { createCourse } from '@/api/courses'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 
 const LANGUAGES = ['ru', 'ky', 'en']
 

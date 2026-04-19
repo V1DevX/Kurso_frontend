@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { getStats } from '../../api/admin'
-import LoadingSpinner from '../../components/shared/LoadingSpinner'
-import ErrorMessage from '../../components/shared/ErrorMessage'
+import { getStats } from '@/api/admin'
+import LoadingSpinner from '@/components/shared/LoadingSpinner'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 import { Users, BookOpen, Zap, GraduationCap } from 'lucide-react'
 
 function StatCard({ icon: Icon, label, value, sub, color = 'text-primary' }) {

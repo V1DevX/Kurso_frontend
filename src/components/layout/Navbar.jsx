@@ -1,8 +1,8 @@
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { Sun, Moon } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
-import useAuthStore from '../../store/authStore'
-import useUiStore from '../../store/uiStore'
+import useAuthStore from '@/store/authStore'
+import useUiStore from '@/store/uiStore'
 
 export default function Navbar() {
   const { t, i18n } = useTranslation()

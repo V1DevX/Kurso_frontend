@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { getCourses } from '../api/courses'
-import LoadingSpinner from '../components/shared/LoadingSpinner'
-import ErrorMessage from '../components/shared/ErrorMessage'
+import { getCourses } from '@/api/courses'
+import LoadingSpinner from '@/components/shared/LoadingSpinner'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 import { Star, Users, BookOpen } from 'lucide-react'
 
 const DIFFICULTY_COLORS = {

@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { getLeaderboard } from '../api/users'
-import LoadingSpinner from '../components/shared/LoadingSpinner'
-import ErrorMessage from '../components/shared/ErrorMessage'
+import { getLeaderboard } from '@/api/users'
+import LoadingSpinner from '@/components/shared/LoadingSpinner'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 import { Flame } from 'lucide-react'
 
 export default function Leaderboard() {

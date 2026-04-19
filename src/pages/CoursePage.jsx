@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { getCourse, getLessons, enrollCourse, getReviews } from '../api/courses'
-import useAuthStore from '../store/authStore'
-import LoadingSpinner from '../components/shared/LoadingSpinner'
-import ErrorMessage from '../components/shared/ErrorMessage'
+import { getCourse, getLessons, enrollCourse, getReviews } from '@/api/courses'
+import useAuthStore from '@/store/authStore'
+import LoadingSpinner from '@/components/shared/LoadingSpinner'
+import ErrorMessage from '@/components/shared/ErrorMessage'
 import { Lock, PlayCircle, Star } from 'lucide-react'
 
 const DIFFICULTY_COLORS = {
